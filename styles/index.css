@@ -1,3 +1,7 @@
+.body{
+    font-family: 'lato', sans-serif;
+    font-family: 'open sans', sans-serif;
+}
 /*header related style */
 .header{
     background: rgba(229, 84, 115, 0.10); 
@@ -152,9 +156,17 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 8px;
 background: #E55473;
+
  }
  
- 
+ .set-iteam{
+    border-radius: 8px;
+background: #E55473;
+width: 150px;
+height: 64px;
+flex-shrink: 0;
+align-items: center;
+ }
 
 
 
