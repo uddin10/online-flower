@@ -1,0 +1,48 @@
+/*header related style */
+.header{
+    background: rgba(229, 84, 115, 0.10); 
+     
+}
+.banner{
+    width: 1500px;
+ height: 850px;
+flex-shrink: 0;
+ display: flex;
+ 
+}
+.banner .profile-picture{
+    width: 635px;
+height: 850px;
+flex-shrink: 0;
+}
+.btn-primary{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+}
+.banner-title{
+    display: flex;
+width: 708px;
+flex-direction: column;
+flex-shrink: 0;
+color: #272727;
+font-family: Lato;
+ font-size: 80px;
+font-weight: 800;
+ 
+ } 
+ .banner-description{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+ }
